@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Join Waitlist - Wickzard</title>
+     <link rel="icon" type="image/png" href="assets/NOBG (2).png" 
+    >
+    <link rel="stylesheet" href="waitlist-style.css">
+</head>
+<body>
+    <video autoplay muted loop playsinline class="bg-video">
+        
+        <source src="assets/bg.mp4" type="video/mp4">
+    </video>
+    <div class="background-pattern"></div>
+    
+    <div class="content">
+        <!-- Navbar -->
+        <nav class="navbar">
+            <button id="backHomeBtn" class="nav-brand clickable">
+                <img src="assets/NOBG (2).png" width="100%" class="logo">
+                <span class="brand-name">WICKZARD</span>
+            </button>
+        </nav>
+
+        <!-- Hero Image -->
+        <div class="hero-image-section">
+            <div class="hero-image-box">
+                <h1>About</h1>
+                
+                
+                <p class="hero-image-text">Advanced Trading Platform</p>
+                <p class="hero-image-text">Advanced Trading Platform</p>
+                <p class="hero-image-text">Advanced Trading Platform</p>
+                <p class="hero-image-text"> Advanced Trading PlatformAdvanced Trading PlatformAdvanced Trading Platform</p>
+            </div>
+        </div>
+
+        <!-- Waitlist Section -->
+        <div class="waitlist-section">
+            <div class="waitlist-content">
+                <div class="badge badge-green">
+                    <span>🎉 Waitlist Open</span>
+                </div>
+                
+                <h2 class="waitlist-title">Get on the Waitlist</h2>
+                
+                <p class="waitlist-subtitle">Get First Access</p>
+
+                <!-- Email Form -->
+                <div class="form-group">
+                    <input 
+                        type="email" 
+                        id="emailInput" 
+                        placeholder="Enter your email" 
+                        class="email-input"
+                    >
+                    
+                     <div class="btn-wrapper">
+        <button id="joinBtn" class="btn btn-primary full-width">
+            Join Waitlist
+        </button>
+        <div class="particle-container"></div>
+    </div>
+
+
+                <div id="successMessage" class="success-message hidden">
+                    <p>✓ Successfully joined the waitlist!</p>
+                </div>
+
+                <!--p class="waitlist-info">
+                    Join 10,000+ traders waiting for early access
+                </p-->
+            </div>
+        </div>
+    </div>
+
+    <script src="waitlist-script.js"></script>
+</body>
+</html>
