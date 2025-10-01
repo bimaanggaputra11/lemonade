@@ -83,11 +83,11 @@ body {
 .hero-section {
     max-width: 1200px;
     margin: 0 auto;
-    padding: 13rem 1.5rem 8rem;
+    padding: 7rem 1.5rem 8rem;
 }
 
 .hero-content {
-    max-width: 56rem;
+    max-width: 60rem;
     margin: 0 auto;
     text-align: center;
 }
@@ -95,14 +95,20 @@ body {
 .badge {
     display: inline-block;
     margin-bottom: 1rem;
-    padding: 0.5rem 1rem;
-    background: rgba(168, 85, 247, 0.2);
-    border: 1px solid rgba(168, 85, 247, 0.5);
+    padding: 0.2rem 0.5rem;
+    background: linear-gradient(
+                270deg,
+                #607ecb3d,
+                #60cb8b59,
+                #60cb8b41,
+                #607ecb42
+            );
+    border: 1px solid rgba(6, 204, 88, 0.2);
     border-radius: 9999px;
 }
 
 .badge span {
-    color: #d8b4fe;
+    color: #60CB8A;
     font-size: 0.875rem;
     font-weight: 500;
 }
@@ -143,8 +149,9 @@ body {
 .hero-description {
     font-size: 1.25rem;
     color: #d1d5db;
+    margin-top: 2rem;
     margin-bottom: 3rem;
-    max-width: 42rem;
+    max-width: 50rem;
     margin-left: auto;
     margin-right: auto;
 }
@@ -156,7 +163,7 @@ body {
     gap: 1rem;
     justify-content: center;
     align-items: center;
-    margin-bottom: 6rem;
+    margin-bottom: 3rem;
 }
 
       .btn-wrapper {
@@ -306,4 +313,26 @@ body {
     .hero-title {
         font-size: 2.5rem;
     }
+}
+
+.address-text h1{
+    font-style: normal;
+   
+  color: #ffffff;
+  font-size: 1.2rem;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  
+}
+.copy-btn {
+    margin-left: 1rem;
+  border: none;
+  background: none;
+  cursor: pointer;
+  color: #ffffff75; 
+  z-index: 1;
+}
+.copy-btn:hover {
+  color: #ffffff75; 
 }

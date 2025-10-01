@@ -115,3 +115,14 @@ if (video) {
         console.error('Video failed to load');
     });
 }
+
+function copyText() {
+  const text = document.getElementById("myText").innerText;
+  navigator.clipboard.writeText(text).then(() => {
+    const btn = document.querySelector('.copy-btn');
+    btn.title = "Copied!";
+    setTimeout(() => {
+      btn.title = "Copy to clipboard";
+    }, 2000);
+  });
+}
